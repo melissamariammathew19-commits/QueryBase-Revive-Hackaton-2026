@@ -1,0 +1,77 @@
+[
+  {
+    "question": "Can my landlord evict me without any notice?",
+    "answer": "No. Verbal notice or a verbal demand to vacate is not legally valid — your landlord must give you a proper written notice before starting an eviction case.",
+    "source": "https://selfhelp.courts.ca.gov/eviction-tenant/notice"
+  },
+  {
+    "question": "What happens if I ignore an eviction notice?",
+    "answer": "A notice is a warning with a deadline. If you don't respond or act by that deadline, your landlord can start a court case to evict you.",
+    "source": "https://selfhelp.courts.ca.gov/eviction-tenant/notice"
+  },
+  {
+    "question": "Can my landlord add extra fees to a 3-day notice for unpaid rent?",
+    "answer": "No. A 3-day Notice to Pay Rent or Quit can only include actual past-due rent — not late fees, bounced-check fees, or utility charges.",
+    "source": "https://selfhelp.courts.ca.gov/eviction-tenant/notice-types"
+  },
+  {
+    "question": "How much notice does a landlord have to give in Section 8 housing?",
+    "answer": "For Section 8 subsidized housing, landlords must give a 90-day notice and have a legally valid \"just cause\" reason to ask the tenant to move.",
+    "source": "https://selfhelp.courts.ca.gov/eviction-tenant/notice-types"
+  },
+  {
+    "question": "How much can my landlord charge for a security deposit?",
+    "answer": "As of July 1, 2024, the limit is one month's rent for most landlords. Small landlords who own no more than two rental properties (four units total) may charge up to two months' rent.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Security-Deposits-English.pdf"
+  },
+  {
+    "question": "What can my landlord legally deduct from my security deposit?",
+    "answer": "Only unpaid rent, damage beyond normal wear and tear, cleaning to restore the unit to its move-in condition, and replacing landlord property if the lease allows it.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Security-Deposits-English.pdf"
+  },
+  {
+    "question": "Does my landlord have to return my security deposit when I move out?",
+    "answer": "Yes. Deposits must be returned minus any allowed deductions once the tenant moves out, and this duty transfers to a new owner if the property is sold.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Security-Deposits-English.pdf"
+  },
+  {
+    "question": "Can my landlord just lock me out without going to court?",
+    "answer": "No. The only lawful way to evict a tenant is by filing a case in court and going through the legal process. A tenant who has been illegally locked out should consult a lawyer about re-entry and damages.",
+    "source": "https://oag.ca.gov/tenants"
+  },
+  {
+    "question": "Is my landlord required to keep the unit livable?",
+    "answer": "Yes. Your landlord must keep the home \"habitable\" — safe and fit to live in — regardless of its condition when you moved in. This includes working plumbing and hot/cold water, safe electrical wiring, heating, weatherproof walls and roofs, working locks and smoke detectors, safe exits, and pest control.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Habitability-English.pdf"
+  },
+  {
+    "question": "Can I pay for repairs myself and take it out of my rent?",
+    "answer": "Yes, in limited cases. If your landlord fails to fix a serious habitability problem after you've given proper notice, you may make the repair yourself and deduct the cost — up to one month's rent — but this can only be used twice in any 12-month period.",
+    "source": "https://www.dre.ca.gov/publications/ResourceGuidebook/gb09_dealingwith.html"
+  },
+  {
+    "question": "Can my landlord end my lease just because it expired, after I've lived there a year?",
+    "answer": "Not automatically. Once a tenant has lived in a unit for 12 months, most landlords need a valid \"just cause\" reason. \"At-fault\" reasons include things like not paying rent or breaking a material lease term; \"no-fault\" reasons include things like the owner moving into the unit or a required government order to vacate for repairs.",
+    "source": "https://oag.ca.gov/tenants"
+  },
+  {
+    "question": "Can my landlord evict me for asking for repairs or pointing out an illegal rent increase?",
+    "answer": "No. It is against the law for a landlord to retaliate against a tenant for exercising their rights — including trying to evict a tenant who has asked for repairs or pointed out that a rent increase is unlawful, or taking away services.",
+    "source": "https://oag.ca.gov/tenants"
+  },
+  {
+    "question": "How much can my landlord raise my rent in a year?",
+    "answer": "For most tenants, rent can't be raised more than 10% in a 12-month period (5% plus the change in cost of living, capped at 10%, whichever is lower). Your landlord must give written notice at least 30 days before a normal increase, or 90 days if the increase is over 10%.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Tenants-English.pdf"
+  },
+  {
+    "question": "Does my landlord have to give me written notice before raising my rent?",
+    "answer": "Yes. A call, text, or email is not enough — your landlord must provide formal written notice before a rent increase takes effect.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Tenants-English.pdf"
+  },
+  {
+    "question": "Can my landlord shut off my utilities or put my belongings outside to force me out?",
+    "answer": "No. It is illegal for a landlord to lock you out, shut off your utilities, or remove your belongings to try to force you to leave — you can only be evicted through a court order.",
+    "source": "https://www.oag.ca.gov/system/files/media/Know-Your-Rights-Tenants-English.pdf"
+  }
+]
