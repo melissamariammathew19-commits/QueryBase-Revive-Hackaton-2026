@@ -1,1 +1,4 @@
-/flask_job_app.zip
+node_modules
+dist
+.env
+flask_job_app.zip
