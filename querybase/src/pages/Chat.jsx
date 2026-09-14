@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { useState } from 'react';
 import qaData from '../data/tenant_rights_qa_final.json';
 
@@ -111,3 +112,10 @@ User question: ${question}`;
 }
 
 export default Chat;
+=======
+function Chat() {
+  return <div className="p-6">Chat screen (coming soon)</div>;
+}
+
+export default Chat;
+>>>>>>> f2bc663eccab3b1dfeafa8a03e6772a97733b8e0
