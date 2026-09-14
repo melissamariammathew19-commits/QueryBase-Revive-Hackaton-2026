@@ -1,3 +1,5 @@
+import { useLocation, useNavigate } from 'react-router-dom'
+
 const topics = [
   { id: 'tenant-rights', name: 'Tenant Rights', active: true },
   { id: 'land-rights', name: 'Land Rights', active: false },
@@ -6,49 +8,40 @@ const topics = [
 ]
 
 function Topic() {
-  // Hardcoded for now — later this comes from the Location screen via Router
-  const location = 'California'
+  const navigate = useNavigate()
+  const routerLocation = useLocation()
+
+  // Comes from the Location screen via navigate('/topic', { state: { location } })
+  // Falls back to 'California' if visited directly (e.g. during testing)
+  const location = routerLocation.state?.location || 'California'
 
   const handleTopicClick = (topic) => {
     if (!topic.active) return
-    console.log('Selected topic:', topic.id, 'Location:', location)
-    // Later: navigate to Chat screen, passing { location, topic: topic.id }
-    alert(`Going to Chat screen with: ${location} — ${topic.name}`)
+    navigate('/chat', { state: { location, topic: topic.id } })
   }
 
   return (
-    <div style={{ padding: '40px', textAlign: 'center', fontFamily: 'sans-serif' }}>
-      <h1>QueryBase</h1>
-      <p>Showing topics for <strong>{location}</strong></p>
+    <div className="min-h-screen flex flex-col items-center justify-center px-6 py-12 text-center">
+      <h1 className="text-4xl font-bold mb-2">QueryBase</h1>
+      <p className="text-gray-500 mb-8">
+        Showing topics for <span className="font-semibold text-gray-800">{location}</span>
+      </p>
 
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(2, 1fr)',
-        gap: '16px',
-        maxWidth: '500px',
-        margin: '30px auto'
-      }}>
+      <div className="grid grid-cols-2 gap-4 max-w-md w-full">
         {topics.map((topic) => (
           <button
             key={topic.id}
             onClick={() => handleTopicClick(topic)}
             disabled={!topic.active}
-            style={{
-              padding: '24px',
-              borderRadius: '12px',
-              border: '2px solid #ccc',
-              fontSize: '16px',
-              fontWeight: 'bold',
-              cursor: topic.active ? 'pointer' : 'not-allowed',
-              opacity: topic.active ? 1 : 0.5,
-              backgroundColor: topic.active ? '#4f46e5' : '#e5e5e5',
-              color: topic.active ? 'white' : '#666',
-              position: 'relative'
-            }}
+            className={`rounded-xl p-6 text-base font-bold border-2 transition
+              ${topic.active
+                ? 'bg-indigo-600 text-white border-indigo-600 cursor-pointer hover:bg-indigo-700'
+                : 'bg-gray-200 text-gray-500 border-gray-200 cursor-not-allowed opacity-60'
+              }`}
           >
             {topic.name}
             {!topic.active && (
-              <div style={{ fontSize: '11px', marginTop: '6px' }}>Coming Soon</div>
+              <div className="text-xs mt-1 font-normal">Coming Soon</div>
             )}
           </button>
         ))}
